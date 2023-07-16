@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- link CSS -->
+    <link rel="stylesheet" href="credit.css">
+    <title>Credit Card Checkout</title>
+</head>
+
+<body>
+    <div class="card-container">
+        <h1 class="card-h1">Let’s Make Payment</h1>
+        <p class="card-description title">To start your subscription, input your card details to make payment.
+            You will be redirected to your banks authorization page . </p>
+
+        <form class="card-form" action="">
+            <label class="title" for="userName">Cardholder’s Name</label><br>
+            <input class="card-input-name title validate" type="" name="userName" id="userName" minlength="6"
+                maxlength="24" placeholder="PAULINA CHIMAROKE" pattern="[A-Za-z ]+"><br>
+
+            <label class="title" for="userCard">Card Number</label><br>
+            <input class="card-input-logo title validate" placeholder="9870 3456 7890 6473"
+                pattern="[0-9]{4}( [0-9]{4}){3}" maxlength="19" required /> <br>
+
+
+
+            <div class="mini-form-container-flex">
+                <div class="mini-inside">
+                    <label class="title" for="userExpiry">Expiry</label><br>
+                    <input class="card-input-mini validate" type="text" name="userCard" id="userExpiry"
+                        placeholder="03 / 25">
+                </div>
+
+                <div class="mini-inside">
+                    <label class="title" for="userCvc">CVC</label> <br>
+                    <input class="card-input-cvc validate" type="password" name="userCvc" id="userCvc"
+                        placeholder="654">
+                </div>
+
+
+            </div><br>
+
+            <label class="title" for="userDiscount">Discount Code</label> <br>
+            <input class=" card-input title validate" type="text" name="userDiscount" id="userDiscount"
+                placeholder="CHIKAMSO-20-OFF"><br>
+
+            <button type="submit" id="btn">Pay</button>
+
+
+        </form>
+
+    </div>
+
+    <div class="card-payment-detailes">
+        <h2 class="title2">You’re paying,</h2>
+        <p class="card-digits">$450.00</p>
+
+        <div class="tryDiv">
+            <div class="iner-flex">
+                <p class="card-gucci-shoes">Custom Gucci Shoes</p>
+                <p class="gucci-size-color">Size: m Color: Red</p>
+            </div>
+            <p class="gucci-price">$ 400.00</p>
+        </div>
+
+        <div class="tryDiv">
+            <div class="iner-flex">
+                <p class="card-gucci-shoes">Nivea Cream 400ml</p>
+                <p class="gucci-size-color">Size: m Color: Blue</p>
+            </div>
+            <p class="gucci-price">$ 50.00</p>
+        </div>
+
+        <div class="tryDiv">
+            <p class="card-gucci-shoes">Discounts & Offers</p>
+            <p class="gucci-price-discount">$ 0.00</p>
+        </div>
+
+        <hr id="hr">
+
+
+        <div class="tryDiv-total">
+            <p class="card-gucci-shoes">Tax</p>
+            <p class="gucci-price-discount">$ 0.00</p>
+        </div>
+
+        <div class="tryDiv-total">
+            <p class="card-gucci-shoes">Total</p>
+            <p class="gucci-price-discount">$ 450.00</p>
+        </div>
+
+
+    </div>
+
+
+    <script src="./credit.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,588 @@
+@media screen and (min-width:1190px) {
+
+    body {
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-content: center;
+        margin-top: 65px;
+    }
+
+
+    .title {
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 19.74px;
+    }
+
+    .card-h1 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        color: #000000;
+        margin-bottom: 32px;
+    }
+
+    .card-description {
+        color: #575757;
+        font-weight: 400;
+        width: 645px;
+        margin-bottom: 90px;
+
+    }
+
+
+    .card-input {
+        padding: 15px 200px 10px 10px;
+        border: none;
+        line-height: 27px;
+        background: #EEEEEE;
+        border-bottom: 2px solid #9563FF;
+        border-radius: 9.8708px;
+        margin-bottom: 30px;
+    }
+
+    .card-input-name {
+        padding: 15px 200px 10px 10px;
+        border: none;
+        line-height: 27px;
+        background: #EEEEEE;
+        border-bottom: 2px solid #9563FF;
+        border-radius: 9.8708px;
+        margin-bottom: 30px;
+    }
+
+    ::placeholder {
+        color: #9563FF;
+    }
+
+    .card-input-logo {
+        padding: 10px 120px 10px 90px;
+        border: none;
+        line-height: 27px;
+        border-bottom: 2px solid #9563FF;
+        border-radius: 9.8708px;
+        background: url(./images/Master-CardD.png) no-repeat;
+        background-size: 15% auto;
+        background-color: #EEEEEE;
+        margin-bottom: 10px;
+    }
+
+    .mini-form-container-flex {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+
+    }
+
+    .card-input-mini,
+    .card-input-cvc {
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 22.7028px;
+        width: 170px;
+        padding: 13px 25px;
+        border: none;
+        background: #EEEEEE;
+        border-bottom: 2px solid #9563FF;
+        border-radius: 9.8708px;
+    }
+
+    button {
+        color: #FFFFFF;
+        padding: 15px 60px;
+        border: none;
+        background: #9563FF;
+        border-radius: 9.87px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        cursor: pointer;
+
+    }
+
+
+
+    .card-payment-detailes {
+        background-color: #f0f0f0;
+        width: 460px;
+        height: 690px;
+        border-radius: 10px;
+        padding: 5px 35px;
+    }
+
+    .title2 {
+        color: #575757;
+        font-size: 24px;
+        font-family: Inter;
+        font-weight: 500;
+    }
+
+    .card-digits {
+        color: #000;
+        font-size: 50px;
+        font-family: Inter;
+        font-weight: 700;
+        margin-top: 2px;
+        margin-left: 20px;
+
+    }
+
+
+
+    .tryDiv {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .iner-flex {
+        display: flex;
+        flex-direction: column;
+        line-height: 0px;
+    }
+
+    .card-gucci-shoes {
+        text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        font-size: 26px;
+        font-family: Inter;
+        font-weight: 700;
+    }
+
+    .gucci-price {
+        color: #000;
+        font-family: Inter;
+        font-weight: 500;
+    }
+
+
+    .gucci-price-discount {
+        display: flex;
+        align-items: center;
+        color: #000;
+        /* font-size: 24px; */
+        font-family: Inter;
+        font-weight: 500;
+    }
+
+    .gucci-size-color {
+        color: #575757;
+        font-size: 20px;
+        font-family: Inter;
+        font-weight: 500;
+    }
+
+    #hr {
+        width: 310px;
+        border-bottom: #747474;
+
+    }
+
+    .tryDiv-total {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 180px;
+        height: 65px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1190px) and (min-width: 560px) {
+    body {
+        margin: 0;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-content: center;
+        margin-top: 65px;
+    }
+
+
+    .title {
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 19.74px;
+    }
+
+    .card-h1 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        color: #000000;
+        margin-bottom: 32px;
+    }
+
+    .card-description {
+        color: #575757;
+        font-weight: 400;
+        text-align: center;
+        width: 545px;
+        margin-bottom: 50px;
+    }
+
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-form {
+        margin-bottom: 50px;
+    }
+
+    .card-input {
+        padding: 15px 200px 10px 10px;
+        border: none;
+        line-height: 27px;
+        background: #EEEEEE;
+        border-bottom: 2px solid #9563FF;
+        border-radius: 9.8708px;
+        margin-bottom: 30px;
+    }
+
+    .card-input-name {
+        padding: 15px 200px 10px 10px;
+        border: none;
+        line-height: 27px;
+        background: #EEEEEE;
+        border-bottom: 2px solid #9563FF;
+        border-radius: 9.8708px;
+        margin-bottom: 30px;
+    }
+
+    ::placeholder {
+        color: #9563FF;
+    }
+
+    .card-input-logo {
+        padding: 10px 120px 10px 90px;
+        border: none;
+        line-height: 27px;
+        border-bottom: 2px solid #9563FF;
+        border-radius: 9.8708px;
+        background: url(./images/Master-CardD.png) no-repeat;
+        background-size: 15% auto;
+        background-color: #EEEEEE;
+        margin-bottom: 10px;
+    }
+
+    .mini-form-container-flex {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+
+    }
+
+    .card-input-mini,
+    .card-input-cvc {
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 22.7028px;
+        width: 170px;
+        padding: 13px 25px;
+        border: none;
+        background: #EEEEEE;
+        border-bottom: 2px solid #9563FF;
+        border-radius: 9.8708px;
+    }
+
+    button {
+        color: #FFFFFF;
+        padding: 15px 60px;
+        border: none;
+        background: #9563FF;
+        border-radius: 9.87px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        cursor: pointer;
+
+    }
+
+
+
+    .card-payment-detailes {
+        background-color: #f0f0f0;
+        width: 410px;
+        height: 605px;
+        border-radius: 10px;
+        padding: 5px 25px;
+    }
+
+    .title2 {
+        color: #575757;
+        font-size: 24px;
+        font-family: Inter;
+        font-weight: 500;
+    }
+
+    .card-digits {
+        color: #000;
+        font-size: 50px;
+        font-family: Inter;
+        font-weight: 700;
+        margin-top: 2px;
+        margin-left: 20px;
+
+    }
+
+
+
+    .tryDiv {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .iner-flex {
+        display: flex;
+        flex-direction: column;
+        line-height: 0px;
+    }
+
+    .card-gucci-shoes {
+        text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        font-size: 26px;
+        font-family: Inter;
+        font-weight: 700;
+    }
+
+    .gucci-price {
+        color: #000;
+        font-family: Inter;
+        font-weight: 500;
+    }
+
+
+    .gucci-price-discount {
+        display: flex;
+        align-items: center;
+        color: #000;
+        /* font-size: 24px; */
+        font-family: Inter;
+        font-weight: 500;
+    }
+
+    .gucci-size-color {
+        color: #575757;
+        font-size: 20px;
+        font-family: Inter;
+        font-weight: 500;
+    }
+
+    #hr {
+        width: 310px;
+        border-bottom: #747474;
+
+    }
+
+    .tryDiv-total {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 180px;
+        height: 65px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:560px) and (min-width:280px) {
+    body {
+        margin: 0;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-content: center;
+        margin-top: 45px;
+    }
+
+    .title {
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 19.74px;
+    }
+
+    .card-h1 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        color: #000000;
+        margin-bottom: 32px;
+    }
+
+    .card-description {
+        color: #575757;
+        font-weight: 400;
+        text-align: center;
+        width: 350px;
+        margin-bottom: 50px;
+    }
+
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-form {
+        margin-bottom: 50px;
+    }
+
+    .card-input {
+        padding: 15px 80px 10px 10px;
+        border: none;
+        line-height: 27px;
+        background: #EEEEEE;
+        border-bottom: 2px solid #9563FF;
+        border-radius: 9.8708px;
+        margin-bottom: 30px;
+    }
+
+
+    .card-input-name {
+        padding: 15px 80px 10px 10px;
+        border: none;
+        line-height: 27px;
+        background: #EEEEEE;
+        border-bottom: 2px solid #9563FF;
+        border-radius: 9.8708px;
+        margin-bottom: 30px;
+    }
+
+    ::placeholder {
+        color: #9563FF;
+    }
+
+    .card-input-logo {
+        padding: 10px 0px 10px 90px;
+        border: none;
+        line-height: 27px;
+        border-bottom: 2px solid #9563FF;
+        border-radius: 9.8708px;
+        background: url(./images/Master-CardD.png) no-repeat;
+        background-size: 15% auto;
+        background-color: #EEEEEE;
+        margin-bottom: 10px;
+    }
+
+    .mini-form-container-flex {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+
+    }
+
+    .card-input-mini,
+    .card-input-cvc {
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 22.7028px;
+        width: 120px;
+        padding: 13px 25px;
+        border: none;
+        background: #EEEEEE;
+        border-bottom: 2px solid #9563FF;
+        border-radius: 9.8708px;
+    }
+
+    button {
+        color: #FFFFFF;
+        padding: 15px 60px;
+        border: none;
+        background: #9563FF;
+        border-radius: 9.87px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        cursor: pointer;
+
+    }
+
+
+
+    .card-payment-detailes {
+        background-color: #f0f0f0;
+        width: 345px;
+        height: 550px;
+        border-radius: 10px;
+        padding: 5px 25px;
+    }
+
+    .title2 {
+        color: #575757;
+        font-size: 24px;
+        font-family: Inter;
+        font-weight: 500;
+    }
+
+    .card-digits {
+        color: #000;
+        font-size: 40px;
+        font-family: Inter;
+        font-weight: 700;
+        margin-top: 2px;
+        margin-left: 20px;
+
+    }
+
+
+
+    .tryDiv {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .iner-flex {
+        display: flex;
+        flex-direction: column;
+        line-height: 0px;
+    }
+
+    .card-gucci-shoes {
+        text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        font-size: 23px;
+        font-family: Inter;
+        font-weight: 700;
+    }
+
+    .gucci-price {
+        color: #000;
+        font-family: Inter;
+        font-weight: 500;
+    }
+
+
+    .gucci-price-discount {
+        display: flex;
+        align-items: center;
+        color: #000;
+        /* font-size: 24px; */
+        font-family: Inter;
+        font-weight: 500;
+    }
+
+    .gucci-size-color {
+        color: #575757;
+        font-size: 17px;
+        font-family: Inter;
+        font-weight: 500;
+    }
+
+    #hr {
+        width: 310px;
+        border-bottom: #747474;
+
+    }
+
+    .tryDiv-total {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 140px;
+        height: 65px;
+        align-items: center;
+    }
+}
